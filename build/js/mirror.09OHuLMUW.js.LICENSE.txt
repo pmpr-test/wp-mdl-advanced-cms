@@ -1,0 +1,90 @@
+/*! ../../scss/frontend/mirror.scss */
+
+/*! prismjs */
+
+/*! prismjs/components/prism-apacheconf */
+
+/*! prismjs/components/prism-css */
+
+/*! prismjs/components/prism-javascript */
+
+/*! prismjs/components/prism-json */
+
+/*! prismjs/components/prism-markup */
+
+/*! prismjs/components/prism-markup-templating */
+
+/*! prismjs/components/prism-nginx */
+
+/*! prismjs/components/prism-php */
+
+/*! prismjs/components/prism-sass */
+
+/*! prismjs/components/prism-scss */
+
+/*! prismjs/plugins/normalize-whitespace/prism-normalize-whitespace */
+
+/*!*************************************!*\
+  !*** ./asset/js/frontend/mirror.js ***!
+  \*************************************/
+
+/*!***************************************!*\
+  !*** ./node_modules/prismjs/prism.js ***!
+  \***************************************/
+
+/*!*****************************************!*\
+  !*** ./asset/scss/frontend/mirror.scss ***!
+  \*****************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/prismjs/components/prism-css.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/prismjs/components/prism-php.js ***!
+  \******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/prismjs/components/prism-json.js ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/prismjs/components/prism-sass.js ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/prismjs/components/prism-scss.js ***!
+  \*******************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/prismjs/components/prism-nginx.js ***!
+  \********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/prismjs/components/prism-markup.js ***!
+  \*********************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/prismjs/components/prism-apacheconf.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/prismjs/components/prism-javascript.js ***!
+  \*************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/prismjs/components/prism-markup-templating.js ***!
+  \********************************************************************/
+
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js ***!
+  \*****************************************************************************************/
+
+/**
+ * Prism: Lightweight, robust, elegant syntax highlighting
+ *
+ * @license MIT <https://opensource.org/licenses/MIT>
+ * @author Lea Verou <https://lea.verou.me>
+ * @namespace
+ * @public
+ */

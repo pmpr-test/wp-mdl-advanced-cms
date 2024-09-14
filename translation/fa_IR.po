@@ -1,0 +1,1096 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pmpr Advanced CMS\n"
+"POT-Creation-Date: 2022-06-13 12:25+0430\n"
+"PO-Revision-Date: 2022-06-13 12:26+0430\n"
+"Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: src/Pmpr/Module/AdvancedCMS/AdvancedCMS.php:75
+msgid "Advanced CMS"
+msgstr "محتوای پیشرفته"
+
+#: src/Pmpr/Module/AdvancedCMS/Breadcrumb/Generator.php:73
+#, php-format
+msgid "Posts Tagged: %s"
+msgstr "نوشته‌هایی با برچسب: %s"
+
+#: src/Pmpr/Module/AdvancedCMS/Breadcrumb/Generator.php:74
+msgid "Error 404"
+msgstr "خطا ۴۰۴"
+
+#: src/Pmpr/Module/AdvancedCMS/Breadcrumb/Generator.php:76
+#, php-format
+msgid "Page %s"
+msgstr "صفحه %s"
+
+#: src/Pmpr/Module/AdvancedCMS/Breadcrumb/Generator.php:78
+#, php-format
+msgid "Comment Page %s"
+msgstr "صفحه نظرات %s"
+
+#: src/Pmpr/Module/AdvancedCMS/Breadcrumb/Generator.php:79
+#, php-format
+msgid "Search Results for: %s"
+msgstr "نتیجه جستجو برای: %s"
+
+#: src/Pmpr/Module/AdvancedCMS/Breadcrumb/Generator.php:80
+#, php-format
+msgid "Articles Posted by %s"
+msgstr "مقالات ارسال شده توسط %s"
+
+#: src/Pmpr/Module/AdvancedCMS/Breadcrumb/Widget.php:20
+msgid "Breadcrumb"
+msgstr "نشانگر صفحات (بردکرامب)"
+
+#: src/Pmpr/Module/AdvancedCMS/Breadcrumb/Widget.php:20
+msgid "Display the breadcrumb."
+msgstr "نمایش نشانگر صفحات (بردکرامب)"
+
+#: src/Pmpr/Module/AdvancedCMS/Breadcrumb/Widget.php:31
+msgid "Exclude Pages"
+msgstr "صفحات مستثنی"
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Admin.php:29
+msgid "Comment Metadata"
+msgstr "متادیتای دیدگاه"
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Admin.php:34
+msgid "User"
+msgstr "کاربر"
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Ajax.php:48
+msgid "Unknown Error"
+msgstr "خطای ناشناخته"
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Ajax.php:61
+msgid "Something is wrong, please try again."
+msgstr "اشکالی در فرایند عملیات رخ داده است، لطفا دوباره امتحان کنید."
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Ajax.php:107
+msgid "Required data not passed"
+msgstr "داده‌های الزامی ارسال نشد‌اند"
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Cover.php:116
+#: src/Pmpr/Module/AdvancedCMS/Comment/Setting.php:41
+msgid "Comment"
+msgstr "دیدگاه‌"
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Cover.php:122
+msgid "There are no comments yet."
+msgstr "هنوز دیدگاهی وجود ندارد."
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Cover.php:124
+msgid "Your comment is awaiting moderation."
+msgstr "دیدگاه شما پس از تایید نمایش داده خواهد شد."
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Cover.php:208
+msgid "Author Logo"
+msgstr "لوگو نویسنده"
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Cover.php:240
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "‏%1$s در %2$s"
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Form.php:81
+#: src/Pmpr/Module/AdvancedCMS/Rating/Cover.php:122
+msgid "Submit"
+msgstr "تایید"
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Form.php:84
+msgid "Cancel reply"
+msgstr "لغو پاسخ"
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Form.php:174
+msgid "Toggle Form"
+msgstr "نمایش فرم"
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Form.php:189
+#, php-format
+msgid "Dear %s, Your comment has been sent successfully."
+msgstr "%s گرامی، دیدگاه شما با موفقیت ثبت شد."
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Setting.php:45
+#: src/Pmpr/Module/AdvancedCMS/Rating/Setting.php:36
+#: src/Pmpr/Module/AdvancedCMS/Setting.php:39
+#: src/Pmpr/Module/AdvancedCMS/Setting.php:43
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Segment.php:120
+#: src/Pmpr/Module/AdvancedCMS/TableOfContent/Setting.php:35
+msgid "General"
+msgstr "عمومی"
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Setting.php:49
+msgid "Target Post Types"
+msgstr "نوع نوشته‌ها"
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Setting.php:51
+msgid "Enable comment for selected post types."
+msgstr "فعال کردن دیدگاه‌ برای نوع نوشته‌های انتخاب شده."
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Setting.php:56
+msgid "Success Submission Message"
+msgstr "پیغام ثبت موفقیت آمیز"
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Setting.php:58
+msgid "Your comment successfully submitted."
+msgstr "دیدگاه شما با موفقیت ثبت شد."
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Setting.php:62
+msgid "Sow Site Brand"
+msgstr "نمایش برند سایت"
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Setting.php:63
+msgid "Show site brand for user with selected roles."
+msgstr "نمایش برند سایت برای نقش‌های کاربری انتخاب شده."
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Setting.php:68
+msgid "Target Roles"
+msgstr "نقش‌های کاربری"
+
+#: src/Pmpr/Module/AdvancedCMS/Comment/Setting.php:74
+msgid "Alternative Avatar"
+msgstr "آواتار جایگزین"
+
+#: src/Pmpr/Module/AdvancedCMS/Metadata/Metadata.php:80
+msgid "Updated At"
+msgstr "تاریخ به روزرسانی"
+
+#: src/Pmpr/Module/AdvancedCMS/Metadata/Metadata.php:81
+msgid "Author"
+msgstr "نویسنده"
+
+#: src/Pmpr/Module/AdvancedCMS/Metadata/Metadata.php:82
+msgid "Created At"
+msgstr "تاریخ ایجاد"
+
+#: src/Pmpr/Module/AdvancedCMS/Metadata/Metadata.php:83
+msgid "Comments"
+msgstr "دیدگاه‌‌ها"
+
+#: src/Pmpr/Module/AdvancedCMS/Metadata/Metadata.php:84
+msgid "Study time"
+msgstr "زمان"
+
+#: src/Pmpr/Module/AdvancedCMS/Metadata/Metadata.php:176
+#, php-format
+msgid "%s comments"
+msgstr "%s دیدگاه"
+
+#: src/Pmpr/Module/AdvancedCMS/Metadata/Metadata.php:185
+#, php-format
+msgid "%s minute reading"
+msgstr "%s دقیقه مطالعه"
+
+#: src/Pmpr/Module/AdvancedCMS/Metadata/Stat.php:132
+msgid "Post in Blog"
+msgstr "نوشته در وبلاگ"
+
+#: src/Pmpr/Module/AdvancedCMS/Metadata/Stat.php:133
+msgid "Comments on Posts"
+msgstr "دیدگاه‌ها پیرامون نوشته‌ها"
+
+#: src/Pmpr/Module/AdvancedCMS/Metadata/Widget.php:20
+#: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:107
+msgid "Metadata"
+msgstr "متادیتا"
+
+#: src/Pmpr/Module/AdvancedCMS/Metadata/Widget.php:20
+msgid "Display the post metadata."
+msgstr "نمایش متا دیتای نوشته‌."
+
+#: src/Pmpr/Module/AdvancedCMS/Metadata/Widget.php:31
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Post.php:265
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Taxonomy.php:180
+msgid "Items"
+msgstr "آیتم‌ها‌"
+
+#: src/Pmpr/Module/AdvancedCMS/Model.php:29
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Shortcode.php:67
+msgid "Post"
+msgstr "نوشته‌"
+
+#: src/Pmpr/Module/AdvancedCMS/Model.php:32
+msgid "Owner"
+msgstr "صاحب"
+
+#: src/Pmpr/Module/AdvancedCMS/Model.php:35
+msgid "IP"
+msgstr "آی پی"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Ajax.php:93
+msgid "Something wrong on save your message."
+msgstr "اشکالی در فرایند ذخیره پیغام شما رخ داده است."
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Ajax.php:119
+msgid "Something wrong on save your rate."
+msgstr "اشکالی در ذخیره امتیاز شما رخ داده است."
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Ajax.php:123
+msgid "Request is not valid, please try again."
+msgstr "درخواست شما معتبر نیست، لطفا دوباره سعی کنید."
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Ajax.php:129
+msgid "Can not save your posted data. try latter please."
+msgstr ""
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Ajax.php:133
+msgid "Required data not provided or not valid."
+msgstr "داده‌های الزامی ارسال نشد‌اند یا معتبر نیستند."
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Cover.php:51
+#, php-format
+msgid "Rating Average %s of %s | Rating Count: %s"
+msgstr "میانگین امتیاز  %s از %s |  تعداد امتیاز: %s"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Cover.php:65
+msgid "Your opinion is important to us"
+msgstr "نظر شما برای ما مهمه"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Cover.php:66
+#, php-format
+msgid "Rate this post %s to %s"
+msgstr "به این نوشته از %s تا %s امتیاز بدین"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Cover.php:75
+#, php-format
+msgid "You have already rate %s to this post."
+msgstr "شما قبلا امتیاز %s را برای این نوشته ثبت کرده‌اید."
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Cover.php:117
+msgid "Rating Feedback"
+msgstr "بازخورد امتیاز"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Model/Feedback.php:19
+#: src/Pmpr/Module/AdvancedCMS/Rating/Setting.php:61
+msgid "Feedback"
+msgstr "بازخورد"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Model/Feedback.php:20
+msgid "Feedbacks"
+msgstr "بازخوردها"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Model/Feedback.php:30
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Download.php:103
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Link/Wikipedia.php:41
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Segment.php:68
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Shortcode.php:63
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Text/Text.php:31
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Text/Text.php:41
+msgid "Text"
+msgstr "متن"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Model/Model.php:62
+msgid "Show Post"
+msgstr "نمایش نوشته‌ها"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Model/Rate.php:24
+msgid "Rate"
+msgstr "امتیاز"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Model/Rate.php:25
+msgid "Rates"
+msgstr "امتیاز‌ها"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Model/Rate.php:43
+msgid "Value"
+msgstr "مقدار"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Model/Rate.php:100
+msgid "Extremely Poor"
+msgstr "شدیدا ضعیف"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Model/Rate.php:101
+msgid "Bad"
+msgstr "بد"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Model/Rate.php:102
+msgid "Average"
+msgstr "متوسط"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Model/Rate.php:103
+msgid "Good"
+msgstr "خوب"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Model/Rate.php:104
+msgid "Excellent"
+msgstr "عالی"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Rating.php:52
+#: src/Pmpr/Module/AdvancedCMS/Rating/Rating.php:155
+#: src/Pmpr/Module/AdvancedCMS/Rating/Setting.php:32
+msgid "Rating"
+msgstr "امتیاز"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Rating.php:99
+#, php-format
+msgid "%s of %s %s"
+msgstr "%s از %s %s"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Rating.php:142
+msgid "Rate is not recorded. please try again."
+msgstr "امتیاز ثبت نشد، لطفا دوباره تلاش کنید."
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Rating.php:184
+#, php-format
+msgid "Average Rating of %s"
+msgstr "میانگین امتیاز از %s"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Setting.php:40
+msgid "Enable Rating"
+msgstr "فعال سازی امتیازدهی"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Setting.php:49
+msgid "Thanks Message"
+msgstr "پیغام تشکر"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Setting.php:51
+msgid "Thanks for your rating."
+msgstr "از امتیاز‌ی که دادید متشکریم."
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Setting.php:55
+msgid "Enable reCAPTCHA"
+msgstr "فعال سازی ری‌کپچا"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Setting.php:65
+msgid "Enable Feedback"
+msgstr "فعال سازی بازخورد"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Setting.php:74
+msgid "Worse Threshold"
+msgstr "آستانه بدترین امتیاز"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Setting.php:76
+msgid "Ask a feedback question, if user rate less than threshold."
+msgstr ""
+"در صورتی که کاربر کمتر از آستانه امتیاز دهد، یک فرم بازخورد نشان داده خواهد شد."
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Setting.php:82
+msgid "Feedback Question"
+msgstr "پرسش بازخورد"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Setting.php:84
+msgid "Share the reason behind this submission with us."
+msgstr "علت ثبت این امتیاز کم رو با ما در میان بگذارید."
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Setting.php:88
+msgid "Feedback Message"
+msgstr "پیغام بازخورد"
+
+#: src/Pmpr/Module/AdvancedCMS/Rating/Setting.php:90
+msgid "Thanks for your feedback."
+msgstr "بابت بازخوردتون ممنونیم."
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Ajax.php:51
+msgid "Already added"
+msgstr "پیش از این افزوده شده است"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Ajax.php:84
+msgid "Try more word"
+msgstr "حروف بیشتری را امتحان کنید"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Ajax.php:96
+msgid "Successfully update."
+msgstr "با موفقیت به‌ روزرسانی شد."
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Ajax.php:97
+msgid "Something is wrong in update process, please try later."
+msgstr "اشکالی در فرایند به‌روزرسانی رخ داده است، لطفل دوباره امتحان کنید."
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Ajax.php:110
+msgid "Successfully deleted."
+msgstr "با موفقیت حذف شد."
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Ajax.php:111
+msgid "Something is wrong in delete process, please try later."
+msgstr "اشکالی در فرایند حذف رخ داده است، لطفل دوباره امتحان کنید."
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Common.php:283
+msgid "Remove"
+msgstr "حذف"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Common.php:288
+msgid "Are you sure you want to remove this item?"
+msgstr "در مورد حذف این آیتم مطمئن هستید؟"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Entity.php:320
+#, php-format
+msgid "Type Name of a %s"
+msgstr "نام یک %s را بنویسید"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Post.php:24
+msgid "Custom Post Type Relations"
+msgstr "رابطه بین نوشته‌ها"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Post.php:89
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Taxonomy.php:61
+#, php-format
+msgid "Relation with %s"
+msgstr "رابطه با %s"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Post.php:126
+msgid "Something is wrong in relation field rendering"
+msgstr "اشکالی در فرایند نمایش فیلد رابطه رخ داده است"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Post.php:250
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Post.php:269
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Taxonomy.php:175
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Taxonomy.php:184
+msgid "Enable"
+msgstr "فعال"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Post.php:255
+msgid "MetaBox Position"
+msgstr "موقعیت متاباکس"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Post.php:257
+msgid "Sidebar"
+msgstr "سایدبار"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Post.php:258
+msgid "Bottom"
+msgstr "پایین"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Post.php:260
+msgid "Position of metabox in edit screen of custom post types."
+msgstr "موقعیت متاباکس در صفحه ویرایش نوشته‌ها."
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Post.php:273
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Taxonomy.php:188
+msgid "Inverse Side"
+msgstr "رابطه دو طرفه"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Post.php:277
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Taxonomy.php:192
+msgid "Image"
+msgstr "تصویر"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Post.php:281
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Taxonomy.php:196
+msgid "Admin Panel Name"
+msgstr "نام در پنل ادمین"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Post.php:285
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Taxonomy.php:201
+msgid "Origin"
+msgstr "منشا"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Post.php:290
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Taxonomy.php:206
+msgid "Destination"
+msgstr "مقصد"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Post.php:295
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Taxonomy.php:211
+msgid "Origin Title"
+msgstr "عنوان اصلی"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Post.php:296
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Taxonomy.php:197
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Text/Notice.php:16
+msgid "Notice"
+msgstr "هشدار"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Post.php:296
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Taxonomy.php:197
+msgid "Will be used as slug too."
+msgstr "به عنوان نامک استفاده خواهد شد."
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Post.php:300
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Taxonomy.php:215
+msgid "Destination Title"
+msgstr "عنوان مقصد"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Entity/Taxonomy.php:21
+msgid "Taxonomy Relations"
+msgstr "رابطه بین تکسونومی‌ها"
+
+#: src/Pmpr/Module/AdvancedCMS/Relation/Setting.php:23
+msgid "Relation"
+msgstr "رابطه"
+
+#: src/Pmpr/Module/AdvancedCMS/Salary/Product.php:52
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Post/Product.php:18
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Post/Product.php:36
+msgid "Product"
+msgstr "محصول"
+
+#: src/Pmpr/Module/AdvancedCMS/Salary/Product.php:68
+#, fuzzy
+#| msgid "Related Posts"
+msgid "Related Product"
+msgstr "نوشته‌های مرتبط"
+
+#: src/Pmpr/Module/AdvancedCMS/Salary/Product.php:162
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Post/Product.php:82
+msgid "Buy Product"
+msgstr "خرید محصول"
+
+#: src/Pmpr/Module/AdvancedCMS/Salary/Salary.php:20
+msgid "Advanced CMS Module"
+msgstr "ماژول محتوای پیشرفته"
+
+#: src/Pmpr/Module/AdvancedCMS/Setting.php:29
+msgid "Setting"
+msgstr "تنظیمات"
+
+#: src/Pmpr/Module/AdvancedCMS/Setting.php:30
+msgid "Advanced CMS Setting"
+msgstr "تنظیمات محتوای پیشرفته"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Blog.php:31
+msgid "Blog"
+msgstr "وبلاگ"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Blog.php:31
+#: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:31
+msgid "Posts"
+msgstr "نوشته‌ها"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Blog.php:48
+msgid "Order by"
+msgstr "مرتب‌شده به وسیله"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Blog.php:50
+msgid "Newest"
+msgstr "جدیدترین"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Blog.php:56
+msgid "Stats"
+msgstr "آمار"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Blog.php:64
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Segment.php:62
+msgid "Call to Action Description"
+msgstr ""
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Blog.php:69
+msgid "Call to Action Text"
+msgstr ""
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Code.php:36
+msgid "Code"
+msgstr "کد"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Code.php:46
+msgid "Language"
+msgstr "زبان"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Code.php:48
+msgid "PHP"
+msgstr "پی اچ پی"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Code.php:49
+msgid "CSS"
+msgstr "سی اس اس"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Code.php:50
+msgid "SASS"
+msgstr ""
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Code.php:51
+msgid "SCSS"
+msgstr ""
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Code.php:52
+msgid "JSON"
+msgstr ""
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Code.php:53
+msgid "Nginx"
+msgstr ""
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Code.php:54
+msgid "HTML Mixed"
+msgstr "مارکاپ اچ تی ام ال"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Code.php:55
+msgid "JavaScript"
+msgstr "جاوااسکریپت"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Code.php:56
+msgid "Apache Configuration"
+msgstr "پیکربندی آپاچی"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Code.php:59
+msgid "Select your Opinion code language"
+msgstr "زبان برنامه نویسی مورد نظر خود را انتخاب کنید"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Code.php:63
+msgid "Code in Right"
+msgstr "کد در سمت راست"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Code.php:64
+msgid "Check this item, if you want show code in right fo screen"
+msgstr ""
+"با علامت زدن این گزینه، کد مورد نظر در قسمت سمت راست صفحه نمایش داده خواهد شد"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Code.php:69
+msgid "Code Text"
+msgstr "متن کد"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Code.php:70
+msgid "Write your code here."
+msgstr "کد مورد نظر خود را اینجا بنویسید."
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Code.php:77
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Download.php:109
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Post/Product.php:59
+msgid "Description"
+msgstr "شرح"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Download.php:33
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Download.php:90
+msgid "Download"
+msgstr "دانلود"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Download.php:68
+msgid "File type"
+msgstr "نوع فایل"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Download.php:74
+msgid "File Size"
+msgstr "حجم فایل"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Download.php:80
+msgid "Download count"
+msgstr "تعداد دانلود"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Download.php:81
+#, php-format
+msgid "%s times"
+msgstr "%s بار"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Download.php:89
+msgid "Download File"
+msgstr "دانلود فایل"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Download.php:105
+msgid "Select Files you want add as download to this post"
+msgstr ""
+"فایل‌هایی را که می‌خواهید برای دانلود، به این شورت‌کد اضافه کنید را انتخاب کنید"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Download.php:142
+msgid "PDF"
+msgstr "فایل پی دی اف"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Download.php:145
+msgid "DOCX"
+msgstr "فایل ورد"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Download.php:147
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/HTML/End.php:17
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/HTML/End.php:32
+msgid "End Shortcode"
+msgstr "شورت‌کد پایان"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/HTML/End.php:30
+#, php-format
+msgid ""
+"This shortcode used for close %s, no setting available. remember just use %s "
+"after %s. for use this shortcode just press %s button"
+msgstr ""
+"این شورتکد برای بستن %s استفاده می‌شود، هیچ تنظیمی برای این شورتکد وجود ندارد. "
+"به یاد داشته باشید از %s فقط بعد از %s استفاده شود. برای استفاده از این شورتکد "
+"فقط دکمه %s را بزنید"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/HTML/End.php:31
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/HTML/End.php:33
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/HTML/Start.php:16
+msgid "Start Shortcode"
+msgstr "شورت‌کد شروع"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/HTML/End.php:34
+msgid "Insert Shortcode"
+msgstr "افزودن شورت‌کد"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/HTML/Start.php:26
+msgid "Has Container"
+msgstr "دارای Container"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Link/Link.php:30
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Link/Wikipedia.php:35
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Segment.php:70
+msgid "Link"
+msgstr "پیوند"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Link/Link.php:32
+msgid "Select a post"
+msgstr "یک نوشته را انتخاب کنید"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Link/Prerequisite.php:16
+msgid "Prerequisite"
+msgstr "پیش‌نیاز مطالعه"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Link/Recommend.php:16
+msgid "Recommend"
+msgstr "پیشنهاد برای مطالعه"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Link/Related.php:16
+msgid "Related"
+msgstr "مطلب مرتبط"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Link/Wikipedia.php:25
+msgid "Wikipedia"
+msgstr "ویکی‌پدیا"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Post/Product.php:38
+msgid "Select product."
+msgstr "یک محصول را انتخاب کنید."
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Post/Product.php:42
+msgid "Product Title"
+msgstr "عنوان محصول"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Post/Product.php:43
+msgid "You can override product main title by this field in shortcode view."
+msgstr "می‌توانید عنوان محصول را در نمایش شورت‌کد از طریق این فیلد تغییر دهید."
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Post/Product.php:48
+msgid "Promotion"
+msgstr "فروش ویژه"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Post/Product.php:53
+msgid "Product Description"
+msgstr "شرح محصول"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Post/Product.php:54
+msgid ""
+"You can override product main description by this field in shortcode view."
+msgstr "می‌توانید شرح محصول را در نمایش شورت‌کد از طریق این فیلد تغییر دهید."
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Post/Product.php:80
+msgid "Product Introduction"
+msgstr "اطلاعات محصول"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Segment.php:66
+msgid "Call to Action items"
+msgstr ""
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Segment.php:73
+msgid "Size"
+msgstr "اندازه"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Segment.php:74
+msgid "Small"
+msgstr "کوچک"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Segment.php:75
+msgid "Medium"
+msgstr "متوسط"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Segment.php:76
+msgid "Large"
+msgstr "بزرگ"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Segment.php:91
+msgid "Alignment"
+msgstr "چینش"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Segment.php:93
+msgid "Left align"
+msgstr "چپ چین"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Segment.php:94
+msgid "Center align"
+msgstr "وسط چین"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Segment.php:95
+msgid "Right align"
+msgstr "راست چین"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Segment.php:106
+msgid "Shortcode Title"
+msgstr "عنوان کلی شورتکد"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Segment.php:110
+msgid "Shortcode Description"
+msgstr "توضیحات کلی شورتکد"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Shortcode.php:43
+msgid "CMS Shortcodes"
+msgstr "شورت‌کدهای محتوای پیشرفته"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Shortcode.php:71
+msgid "Internal Link"
+msgstr "لینک داخلی"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Shortcode.php:75
+msgid "External Link"
+msgstr "لینک به بیرون"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Shortcode.php:79
+msgid "HTML Tags"
+msgstr "تگ‌های اچ تی ام ال"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Text/Example.php:16
+msgid "Example"
+msgstr "مثال"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Text/Free.php:16
+msgid "Free Box"
+msgstr "متن آزاد"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Text/Question.php:19
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Text/Question.php:29
+msgid "Question"
+msgstr "پرسش"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Text/Question.php:34
+msgid "Answer"
+msgstr "پاسخ"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Text/Quotation.php:16
+msgid "Quotation"
+msgstr "نقل قول"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Text/Right.php:16
+msgid "Rights"
+msgstr "باید‌ها"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Text/Stat.php:16
+msgid "Stats and Information"
+msgstr "آمار و اطلاعات"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Text/Tip.php:16
+msgid "Tip"
+msgstr "نکته"
+
+#: src/Pmpr/Module/AdvancedCMS/Shortcode/Text/Wrong.php:16
+msgid "Wrongs"
+msgstr "نباید‌ها"
+
+#: src/Pmpr/Module/AdvancedCMS/TableOfContent/Setting.php:31
+#: src/Pmpr/Module/AdvancedCMS/TableOfContent/Widget.php:50
+msgid "Table of Content"
+msgstr "فهرست مطالب"
+
+#: src/Pmpr/Module/AdvancedCMS/TableOfContent/Setting.php:39
+msgid "Post types"
+msgstr "نوع پست‌ها"
+
+#: src/Pmpr/Module/AdvancedCMS/TableOfContent/Setting.php:47
+msgid "Minimum Heading Count"
+msgstr "حداقل تعداد تیتر"
+
+#: src/Pmpr/Module/AdvancedCMS/TableOfContent/Setting.php:53
+msgid "Show Hierarchy"
+msgstr "نمایش سلسله مراتبی"
+
+#: src/Pmpr/Module/AdvancedCMS/TableOfContent/Setting.php:58
+msgid "Heading Levels"
+msgstr "عمق تیترها"
+
+#: src/Pmpr/Module/AdvancedCMS/TableOfContent/Setting.php:64
+msgid "Exclude Posts"
+msgstr "نوشته‌های مستثنی"
+
+#: src/Pmpr/Module/AdvancedCMS/TableOfContent/Setting.php:67
+msgid "Disable in selected posts."
+msgstr "غیر فعال کردن برای نوشته‌های انتخاب شده."
+
+#: src/Pmpr/Module/AdvancedCMS/TableOfContent/Setting.php:83
+#, php-format
+msgid "Heading Level %s (h%s)"
+msgstr "تییر سطح % s (h%s)"
+
+#: src/Pmpr/Module/AdvancedCMS/TableOfContent/Widget.php:22
+msgid "Table of Contents"
+msgstr "فهرست مطالب"
+
+#: src/Pmpr/Module/AdvancedCMS/TableOfContent/Widget.php:22
+msgid "Display the table of contents."
+msgstr "نمایش فهرست مطالب."
+
+#: src/Pmpr/Module/AdvancedCMS/TableOfContent/Widget.php:32
+#: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:78
+#: src/Pmpr/Module/AdvancedCMS/Widget/Taxonomy.php:43
+msgid "Title"
+msgstr "عنوان"
+
+#: src/Pmpr/Module/AdvancedCMS/TableOfContent/Widget.php:36
+msgid "Collapsible"
+msgstr "قابلیت باز و بسته شدن"
+
+#: src/Pmpr/Module/AdvancedCMS/TableOfContent/Widget.php:51
+msgid "Close"
+msgstr "بستن"
+
+#: src/Pmpr/Module/AdvancedCMS/TableOfContent/Widget.php:52
+msgid "Show"
+msgstr "نمایش"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:31
+msgid "Display the posts."
+msgstr "نمایش نوشته‌ها."
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:47
+#: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:100
+msgid "Related Posts"
+msgstr "نوشته‌های مرتبط"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:48
+msgid "Recommended Posts"
+msgstr "نوشته‌های پشنهادی"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:81
+#: src/Pmpr/Module/AdvancedCMS/Widget/Taxonomy.php:46
+msgid "Count"
+msgstr "تعداد"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:87
+msgid "Post Type"
+msgstr "نوع نوشته"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:95
+#: src/Pmpr/Module/AdvancedCMS/Widget/Taxonomy.php:68
+msgid "Type"
+msgstr "نوع"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:97
+msgid "Recent Posts"
+msgstr "آخرین نوشته‌ها"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:98
+msgid "Last Updated"
+msgstr "آخرین به روز شده‌ها"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:99
+msgid "Most Popular"
+msgstr "محبوب‌ترین نوشته‌ها"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:102
+msgid "Most Controversial"
+msgstr "پر بحث‌‌ترین نوشته‌ها"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:113
+#: src/Pmpr/Module/AdvancedCMS/Widget/Taxonomy.php:77
+msgid "Show Template"
+msgstr "قالب نمایش"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:115
+msgid "Simple List"
+msgstr ""
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:116
+#: src/Pmpr/Module/AdvancedCMS/Widget/Taxonomy.php:79
+msgid "List"
+msgstr "لیست"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:117
+msgid "Table"
+msgstr "جدول"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Taxonomy.php:33
+msgid "Taxonomies"
+msgstr "تکسونومی‌ها"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Taxonomy.php:33
+msgid "Display the taxonomies."
+msgstr "نمایش تکسانومی‌ها."
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Taxonomy.php:52
+msgid "Show Count"
+msgstr "نمایش تعداد"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Taxonomy.php:54
+msgid "Dont Show"
+msgstr "عدم نمایش"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Taxonomy.php:55
+msgid "Show Post Count"
+msgstr "نمایش تعداد نوشته‌ها"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Taxonomy.php:56
+msgid "Show Child Count"
+msgstr "نمایش تعداد زیرشاخه‌ها"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Taxonomy.php:61
+msgid "Taxonomy"
+msgstr "تکسونومی"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Taxonomy.php:70
+msgid "Normal"
+msgstr "معمولی"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Taxonomy.php:71
+msgid "Most Used"
+msgstr "بیشترین استفاده شده"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Taxonomy.php:72
+msgid "Just Top Level Parents"
+msgstr "فقط سرشاخه‌ها"
+
+#: src/Pmpr/Module/AdvancedCMS/Widget/Taxonomy.php:80
+msgid "Tag Cloud"
+msgstr "تگ کلود"
+
+#~ msgid "Start Container"
+#~ msgstr "شورت‌کد شروع"
+
+#~ msgid "End Container"
+#~ msgstr "شورت‌کد پایان"
+
+#~ msgid "Popular %s"
+#~ msgstr "محبوب‌ترین %s"
+
+#~ msgid "Post Relation"
+#~ msgstr "رابطه بین نوشته‌ها"
+
+#~ msgid "Display the posts relation."
+#~ msgstr "نمایش رابطه بین نوشته‌ها."
+
+#~ msgid "leave empty if you want use relation own title."
+#~ msgstr ""
+#~ "اگر میخواهید از عنوان خود رابطه استفاده کنید این فیلد را خالی بگذارید."
+
+#~ msgid "Limit"
+#~ msgstr "محدودیت"
+
+#~ msgid "Destination Title."
+#~ msgstr "عنوان مقصد."
+
+#, fuzzy
+#~| msgid "Check this item, if you want show code in right fo screen"
+#~ msgid "Check this item if you want enable relation functionality for %s."
+#~ msgstr ""
+#~ "با علامت زدن این گزینه، کد مورد نظر در قسمت سمت راست صفحه نمایش داده خواهد "
+#~ "شد"
+
+#~ msgid "Justify Description"
+#~ msgstr "پخش کردن متن توضیح"
+
+#~ msgid "Justify For %s"
+#~ msgstr "متن همتراز %s"
+
+#~ msgid "%s and %s"
+#~ msgstr "%s و %s"
+
+#~ msgid "Alignment For %s"
+#~ msgstr "چینش %s"
+
+#~ msgid "Post per page"
+#~ msgstr "تعداد آیتم‌ها در هر صفحه"
+
+#~ msgid "%s"
+#~ msgstr "%s"
+

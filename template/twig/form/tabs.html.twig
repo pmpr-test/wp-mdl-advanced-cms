@@ -1,0 +1,10 @@
+<div class="pr-tabs">
+    {% for tab in tabs %}
+        {% set selectors = tab|call('getSelectors') %}
+        <div id="{{ cmb_id|esc_attr }}-tab-{{ tab.id|esc_attr }}"
+             class="pr-tab" data-fields="{{ selectors|esc_attr }}">
+            {{ tab|call('getIconHtml')|raw }}
+            <span class="pr-tab-title">{{ tab|call('getTitle')|raw }}</span>
+        </div>
+    {% endfor %}
+</div>
