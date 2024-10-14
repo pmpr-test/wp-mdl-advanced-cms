@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Advanced CMS\n"
 "POT-Creation-Date: 2022-06-13 12:25+0430\n"
-"PO-Revision-Date: 2022-06-13 12:26+0430\n"
+"PO-Revision-Date: 2024-10-15 01:27+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.1\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: index.php\n"
 "X-Source-Language: en\n"
@@ -532,10 +532,8 @@ msgid "Product"
 msgstr "محصول"
 
 #: src/Pmpr/Module/AdvancedCMS/Salary/Product.php:68
-#, fuzzy
-#| msgid "Related Posts"
 msgid "Related Product"
-msgstr "نوشته‌های مرتبط"
+msgstr "محصول مرتبط"
 
 #: src/Pmpr/Module/AdvancedCMS/Salary/Product.php:162
 #: src/Pmpr/Module/AdvancedCMS/Shortcode/Post/Product.php:82
@@ -784,7 +782,7 @@ msgstr "اطلاعات محصول"
 
 #: src/Pmpr/Module/AdvancedCMS/Shortcode/Segment.php:66
 msgid "Call to Action items"
-msgstr ""
+msgstr "موارد Call to Action"
 
 #: src/Pmpr/Module/AdvancedCMS/Shortcode/Segment.php:73
 msgid "Size"
@@ -911,7 +909,7 @@ msgstr "غیر فعال کردن برای نوشته‌های انتخاب شد�
 #: src/Pmpr/Module/AdvancedCMS/TableOfContent/Setting.php:83
 #, php-format
 msgid "Heading Level %s (h%s)"
-msgstr "تییر سطح % s (h%s)"
+msgstr "سطح تیتر %s (h%s)"
 
 #: src/Pmpr/Module/AdvancedCMS/TableOfContent/Widget.php:22
 msgid "Table of Contents"
@@ -989,7 +987,7 @@ msgstr "قالب نمایش"
 
 #: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:115
 msgid "Simple List"
-msgstr ""
+msgstr "لیست ساده"
 
 #: src/Pmpr/Module/AdvancedCMS/Widget/Post.php:116
 #: src/Pmpr/Module/AdvancedCMS/Widget/Taxonomy.php:79
