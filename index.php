@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             67051755168f2             |
+    |             670d00078a083             |
     |_______________________________________|
 */
  use Pmpr\Module\AdvancedCMS\AdvancedCMS; AdvancedCMS::symcgieuakksimmu();
