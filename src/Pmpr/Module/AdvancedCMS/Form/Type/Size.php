@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             68169d89564a0             |
+    |             68169e27911f3             |
     |_______________________________________|
 */
  namespace Pmpr\Module\AdvancedCMS\Form\Type; class Size extends Common { public function render($aiowsaccomcoikus, $eqgoocgaqwqcimie, $kqokimuosyuyyucg, $mqyaskyaekmkegmg, $ymygiwwuwyuakysk) { $eqgoocgaqwqcimie = wp_parse_args($eqgoocgaqwqcimie, ['width' => 100, 'height' => 100]); $wyicceigkekkkwgs = [$ymygiwwuwyuakysk->_id('_width') => ['label' => __('Max Width', PR__CMN__FOUNDATION), 'input' => $ymygiwwuwyuakysk->euueacigmgoqkimu(['name' => $ymygiwwuwyuakysk->_name('[width]'), 'id' => $ymygiwwuwyuakysk->_id('_width'), 'value' => $eqgoocgaqwqcimie['width'], 'desc' => '', 'type' => 'number', 'step' => 1, 'min' => 0, 'class' => 'small-text'])], $ymygiwwuwyuakysk->_id('_height') => ['label' => __('Max Height', PR__CMN__FOUNDATION), 'input' => $ymygiwwuwyuakysk->euueacigmgoqkimu(['name' => $ymygiwwuwyuakysk->_name('[height]'), 'id' => $ymygiwwuwyuakysk->_id('_height'), 'value' => $eqgoocgaqwqcimie['height'], 'desc' => '', 'type' => 'number', 'step' => 1, 'min' => 0, 'class' => 'small-text'])]]; $this->iuygowkemiiwqmiw('size', ['value' => $eqgoocgaqwqcimie, 'sizes' => $wyicceigkekkkwgs]); } public function yiiiqewsseywemqu($egomoiciasmiesww, $eqgoocgaqwqcimie) { if (is_array($eqgoocgaqwqcimie)) { foreach ($eqgoocgaqwqcimie as $uusmaiomayssaecw => $ogskakmksyuqsiwg) { $eqgoocgaqwqcimie[$uusmaiomayssaecw] = sanitize_text_field($ogskakmksyuqsiwg); } $egomoiciasmiesww = $eqgoocgaqwqcimie; } return parent::yiiiqewsseywemqu($egomoiciasmiesww, $eqgoocgaqwqcimie); } }
