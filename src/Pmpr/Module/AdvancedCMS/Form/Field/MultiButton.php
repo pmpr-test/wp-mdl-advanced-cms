@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             68169e27911f3             |
+    |             68c0c1c614f3d             |
     |_______________________________________|
 */
  namespace Pmpr\Module\AdvancedCMS\Form\Field; class MultiButton extends Field { protected array $buttons = []; public function __construct(?string $aokagokqyuysuksm, ?string $ymqmyyeuycgmigyo = null, ?string $mkqqqewsokcswckc = null) { parent::__construct('multi_buttons', $aokagokqyuysuksm, $ymqmyyeuycgmigyo, $mkqqqewsokcswckc); $this->qigsyyqgewgskemg('ml-1'); } public function micmwmywmkguiyyk() { return $this->qigsyyqgewgskemg('button-primary'); } public function imswwiyicyksouus() : array { return $this->buttons; } public function igmamuiesywmkgeu(Button $gskauacumcmekigs) : self { $this->buttons[$gskauacumcmekigs->mwikyscisascoeea()] = $gskauacumcmekigs; return $this; } public function uqawesackiomqgga($kkeqqkkkqwkocsyu, array $ywmkwiwkosakssii = []) : ?array { if (isset($kkeqqkkkqwkocsyu['buttons']) && $kkeqqkkkqwkocsyu['buttons'] && is_array($kkeqqkkkqwkocsyu['buttons'])) { foreach ($kkeqqkkkqwkocsyu['buttons'] as $uusmaiomayssaecw => $gskauacumcmekigs) { if ($gskauacumcmekigs instanceof Field) { $kkeqqkkkqwkocsyu['buttons'][$uusmaiomayssaecw] = $gskauacumcmekigs->sacmkccceuywoqsq(false, $ywmkwiwkosakssii); } } } return parent::uqawesackiomqgga($kkeqqkkkqwkocsyu, $ywmkwiwkosakssii); } }
