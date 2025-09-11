@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             68c0c1c614f3d             |
+    |             68c2b5e0d5821             |
     |_______________________________________|
 */
  namespace Pmpr\Module\AdvancedCMS\Form\Field; class Select extends OptionAwareField { public function __construct(?string $aokagokqyuysuksm, ?string $ymqmyyeuycgmigyo, array $qiouiwasaauyaaue = [], ?string $mkqqqewsokcswckc = null, ?string $sqeykgyoooqysmca = 'select') { parent::__construct($sqeykgyoooqysmca, $aokagokqyuysuksm, $ymqmyyeuycgmigyo, $mkqqqewsokcswckc, $qiouiwasaauyaaue); } public function iygyugseyaqwywyg($eqgoocgaqwqcimie) : Field { if ($eqgoocgaqwqcimie) { if (is_array($eqgoocgaqwqcimie)) { $eqgoocgaqwqcimie = json_encode($eqgoocgaqwqcimie); } $this->gmywsauuqwcmakuc('values', (string) $eqgoocgaqwqcimie); } return parent::iygyugseyaqwywyg($eqgoocgaqwqcimie); } public function wkimkisugugasowe($uusmaiomayssaecw, $pkyyagewkiyckmwy, $qiouiwasaauyaaue, $yuwymayicwwqiske = true) : self { foreach ($qiouiwasaauyaaue as $eqgoocgaqwqcimie => $meqocwsecsywiiqs) { if ($yuwymayicwwqiske) { unset($qiouiwasaauyaaue[$eqgoocgaqwqcimie]); $eqgoocgaqwqcimie = $uusmaiomayssaecw . '_' . $eqgoocgaqwqcimie; } if ($pkyyagewkiyckmwy) { $meqocwsecsywiiqs .= " ({$pkyyagewkiyckmwy})"; } $qiouiwasaauyaaue[$eqgoocgaqwqcimie] = $meqocwsecsywiiqs; } if (is_array($qiouiwasaauyaaue) && $qiouiwasaauyaaue) { $this->kesomeowemmyygey($uusmaiomayssaecw, ['label' => $pkyyagewkiyckmwy, 'options' => $qiouiwasaauyaaue]); } return $this; } public function qgcscuuessikoiko($igaagwuyasawwqms) : self { $this->qigsyyqgewgskemg('pr-updatable-input')->eskgwaywimqcwcyy('updatable', $igaagwuyasawwqms); return $this; } }
